@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'lakeshore';
+  src: url('fonts/LAKESHOR-webfont.eot');
+  src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/LAKESHOR-webfont.woff') format('woff'),
+       url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
+       url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#introduction{
+  background-color:#68ac82;
+}
+
+#course{
+  background-color:#68ac82;
+}
+
+#photos{
+  background-color:#312b39;
+  color:#a7fefa
+}
+
+#nav{
+  float: left;
+}
+
+a{
+  color: white;
+  font-size:20px;
+}
+
+a:hover {
+  font-size:25px;
+}
+
+/*div.img{
+  height: 333px;
+  width: 500px;
+  overflow:hidden;
+}*/
+
+ol {
+  list-style-type:upper-alpha;
+  list-style-position:inside;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  color: white;
+  background-color: #555;
+  border: 2px solid black;
+}
+
+.name-render {
+  font-family: lakeshore;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.p1{
+  display: inline-block;
+  font-size:20px;
+  background-color: #cac1d7;
+}
+
+.p2{
+  display: inline-block;
+  font-size:20px;
+  background-color: #c69a95;
+}
+
+.p3{
+  display: inline-block;
+  font-size:20px;
+  background-color: #5d61da;
+}

@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Photos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
   </head>
-  <body>
+  <body id = "photos">
     <main>
       <nav>
-        <ol>
-          <li><a href="/index.html">Introduction</a>
-          <li><a href="/course.html">Course Discussion </a>
-          <li><a href="/photos.html">Photos </a>
+        <ol type = "A">
+          <li id = "nav"><a href="/index.html">Introduction</a>
+          <li id = "nav"><a href="/course.html">Course Discussion </a>
+          <li id = "nav"><a href="/photos.html">Photos </a>
         </ol>
       </nav>
 
@@ -21,22 +23,26 @@
       </section>
 
       <section>
-          <ul>
+          <ul type = "circle">
             <li>
-              <p>I enjoy Halloween imagery. If Halloween isnt your favorite holiday than it should be!</p>
-              <img src="img/halloween.jpeg" alt="Halloween Pumpkins" width="500" height="333">
+              <p class = "p1">I enjoy Halloween imagery. If Halloween isnt your favorite holiday than it should be!</p>
+              <div class = "img">
+                <img src="img/halloween.jpeg" alt="Halloween Pumpkins" width="500" height="333">
+              </div>
             </li>
 
             <li>
-              <p>Unfortunately, I do not get to see this kind of scenery everyday. It sure is beautiful. </p>
+              <p class = "p2">Unfortunately, I do not get to see this kind of scenery everyday. It sure is beautiful. </p>
+            <div class = "img">
               <img src="img/rainforestwater.jpeg" alt="Rainforest Waterfall" width="500" height="333">
-
+            </div>
             </li>
 
             <li>
-              <p>Roaming city streets at night used to be a fun experience. This image reminds of my time living in NY.</p>
+              <p class = "p3">Roaming city streets at night used to be a fun experience. This image reminds of my time living in NY.</p>
+            <div class = "img">
               <img src="img/citynights.jpeg" alt="The City at Night" width="500" height="333">
-
+            </div>
             </li>
           </ul>
 
